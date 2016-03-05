@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- <item
+        android:id="@+id/home"
+        android:orderInCategory="6"
+        android:title="@string/home">
+    </item> -->
+    <!-- <item
+        android:id="@+id/login"
+        android:orderInCategory="6"
+        android:title="@string/login">
+    </item> -->
+    <!--  <item
+        android:id="@+id/user_add"
+        android:orderInCategory="6"
+        android:title="@string/add_user">
+    </item> -->
+    <item
+        android:id="@+id/channel_select"
+        android:orderInCategory="6"
+        android:title="@string/select_channel">
+    </item>
+    <item
+        android:id="@+id/channel_add"
+        android:orderInCategory="6"
+        android:title="@string/add_channel">
+    </item>
+    <!-- <item
+        android:id="@+id/channel_set"
+        android:orderInCategory="6"
+        android:title="@string/setting_channel">
+    </item> -->
+<!--     <item
+        android:id="@+id/geo"
+        android:orderInCategory="6"
+        android:title="現在地確認">
+    </item> -->
+    <item
+        android:id="@+id/version"
+        android:orderInCategory="6"
+        android:title="@string/version">
+    </item>
+</menu>

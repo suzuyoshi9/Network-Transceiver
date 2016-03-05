@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ユーザーログイン"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/user_make"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ユーザーの作成" />
+
+</LinearLayout>

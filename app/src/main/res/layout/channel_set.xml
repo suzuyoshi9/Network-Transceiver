@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_channel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="変更するチャンネル名" />
+    <!-- この辺でグループを取得して選択できるようにする予定 -->
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="参加者一覧" />
+
+    <!-- チェックボックス式で参加者を選べる！！！ -->
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="変更" />
+
+</LinearLayout>
